@@ -262,7 +262,7 @@ int main() {
         if (meeting_times[i].first<1000) {cout<<"0";}
         cout<<meeting_times[i].first<<"-";
         if (meeting_times[i].second<1000) {cout<<"0";}
-        cout<<meeting_times[i].second<<endl;
+        cout<<meeting_times[i].second<<" Eastern Time"<<endl;
         cout<<"Senior Attendees: ";
         for (auto member:team_members) {
             if (member.getSeniority()==2)
